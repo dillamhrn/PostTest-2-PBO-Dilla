@@ -8,6 +8,16 @@ Program ini adalah aplikasi sederhana untuk mengelola kontak, dibuat dengan Java
 
 Pengguna dapat dengan mudah menambahkan kontak baru, meninjau daftar kontak yang tersedia, memperbarui informasi pada kontak tertentu, atau menghapus kontak yang sudah tidak diperlukan. Program ini dilengkapi dengan fitur validasi input untuk meningkatkan keamanan dan mencegah kesalahan. Setiap tindakan yang dilakukan akan disertai dengan pesan konfirmasi, sehingga pengguna dapat memahami hasil dari setiap proses dengan jelas.
 
+# Penjelasan Struktur Package pada Program
+<img width="329" height="186" alt="image" src="https://github.com/user-attachments/assets/13039a1b-33de-40ae-a67f-2f0b38ec92de" />
+
+1. PostTest1PBO.java
+Class ini merupakan program utama yang dijalankan. Tugasnya adalah menampilkan menu kepada pengguna, menerima input, serta mengarahkan perintah ke class KontakService. Dengan kata lain, class ini menjadi antarmuka antara pengguna dengan sistem.
+2. KontakService.java
+Class ini berisi logika utama program berupa operasi CRUD (Create, Read, Update, Delete). Semua perintah dari PostTest1PBO diproses di sini, misalnya menambah kontak baru, menampilkan daftar kontak, mengedit kontak berdasarkan ID, dan menghapus kontak. Class ini juga mengelola penyimpanan data kontak menggunakan ArrayList.
+4. Kontak.java
+Class ini merupakan model atau representasi data kontak. Atribut yang dimiliki antara lain id, nama, dan nomorHp. Class ini juga memiliki constructor untuk memudahkan pembuatan objek kontak baru. Dengan adanya class ini, setiap data kontak tersimpan dalam bentuk objek yang terstruktur.
+
 # Penjelasan Alur Program
 ## A. Menu Utama
 <img width="428" height="311" alt="image" src="https://github.com/user-attachments/assets/5d9c06d4-669b-45fe-b052-ba3c8d59eec9" />
