@@ -49,6 +49,7 @@ Bagian ini menampilkan hasil ketika pengguna memilih menu 'List Kontak'. Program
 
 **Tambahan:**
 Jika list nomor belum ada yang terdaftar, maka akan muncul pesan seperti pada gambar di bawah.
+
 <img width="423" height="173" alt="image" src="https://github.com/user-attachments/assets/9ec623e3-eb35-4fed-bfab-f43958764fbd" />
 
 ## D. Menu Edit Kontak
@@ -58,6 +59,7 @@ Bagian ini menampilkan proses ketika pengguna memilih menu 'Edit Kontak'. Progra
 
 **Tambahan:**
 Jika pengguna memasukkan selain angka pada saat memilih id, maka akan muncul pesan error seperti pada gambar di bawah.
+
 <img width="425" height="160" alt="image" src="https://github.com/user-attachments/assets/75861ad2-91ad-4343-9646-3a95cd6fd707" />
 
 ## E. Menu Hapus Kontak
@@ -67,6 +69,7 @@ Bagian ini menampilkan proses ketika pengguna memilih menu 'Hapus Kontak'. Progr
 
 **Tambahan:**
 Jika pengguna memasukkan ID yang tidak ada pada list kontak atau memasukkan input selain angka, maka akan muncul pesan error seperti pada gambar di bawah.
+
 <img width="423" height="169" alt="image" src="https://github.com/user-attachments/assets/fcdad25b-b844-4856-960e-ad71f5ea6a69" />
 
 <img width="431" height="170" alt="image" src="https://github.com/user-attachments/assets/217ae933-ef5d-4c8d-b6a4-8713dc7e86cf" />
