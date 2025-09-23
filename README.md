@@ -23,14 +23,6 @@ Class ini berisi logika utama program berupa operasi CRUD (Create, Read, Update,
 
 Class ini merupakan model atau representasi data kontak. Atribut yang dimiliki antara lain id, nama, dan nomorHp. Class ini juga memiliki constructor untuk memudahkan pembuatan objek kontak baru. Dengan adanya class ini, setiap data kontak tersimpan dalam bentuk objek yang terstruktur.
 
-4. KontakBisnis.Java
-
-Class ini merupakan subclass dari Kontak yang mewakili kontak dengan keperluan bisnis. Selain mewarisi atribut dari superclass, class ini juga bisa memiliki atribut tambahan khusus bisnis (misalnya nama perusahaan). Class ini juga menerapkan overriding untuk menyesuaikan output sesuai jenis kontak.
-
-5. KontakPribadi.Java
-
-Class ini juga merupakan subclass dari Kontak yang mewakili kontak pribadi. Sama seperti KontakBisnis, class ini mewarisi atribut dari superclass namun lebih difokuskan pada keperluan personal (misalnya alamat rumah). Class ini pun bisa menerapkan overriding agar output lebih sesuai dengan konteks pribadi.
-
 # Penjelasan Alur Program
 ## A. Menu Utama
 <img width="428" height="311" alt="image" src="https://github.com/user-attachments/assets/5d9c06d4-669b-45fe-b052-ba3c8d59eec9" />
@@ -64,11 +56,6 @@ Bagian ini menunjukkan proses ketika pengguna memilih menu 'Tambah Kontak'. Prog
 Jika pengguna mengosongkan nama atau mengisi nomor HP dengan selain angka, maka akan muncul pesan error seperti pada gambar di bawah.
 
 <img width="429" height="274" alt="image" src="https://github.com/user-attachments/assets/c6661736-e7b3-4f83-993c-e523400e9da5" />
-
-Setelah pengguna memasukkan nama dan nomor HP, pengguna bisa memilih tipe kontak. apakah kontak bisnis atau pribadi.
-
-<img width="426" height="102" alt="image" src="https://github.com/user-attachments/assets/6175a008-3b54-402d-b675-839baf707cc9" />
-
 
 ## C. Menu List Kontak
 <img width="430" height="265" alt="image" src="https://github.com/user-attachments/assets/c7e2ba89-d45b-424e-9227-cbbd7b0b262c" />
